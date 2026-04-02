@@ -5,7 +5,7 @@ Custom [Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot) cogs by 
 ## Installation
 
 ```
-[p]repo add joka-cogs <repo_url>
+[p]repo add joka-cogs https://github.com/orangezef/red-cogs
 [p]cog install joka-cogs <cog_name>
 [p]load <cog_name>
 ```
