@@ -30,6 +30,8 @@ class AutoDelete(commands.Cog):
 
     async def _get_delete_delay(self, guild: discord.Guild) -> int:
         """Read the guild delete_delay from Red core config. Returns -1 if disabled or on error."""
+        # bot._config is a private API — no public interface exists for reading
+        # guild delete_delay. Tested on Red 3.5.24 / discord.py 2.7.1.
         try:
             delay = await self.bot._config.guild(guild).delete_delay()
         except Exception:

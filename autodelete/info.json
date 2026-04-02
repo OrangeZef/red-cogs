@@ -1,6 +1,6 @@
 {
     "author": ["Joka.ca"],
-    "install_msg": "AutoDelete installed. Bot messages will auto-delete based on your guild's `[p]deletedelay` setting. Use `[p]autodelete exclude #channel` to protect specific channels.",
+    "install_msg": "AutoDelete installed. Bot messages will auto-delete based on your guild's `[p]set deletedelay` setting. Use `[p]autodelete exclude #channel` to protect specific channels.",
     "name": "AutoDelete",
     "short": "Auto-delete bot messages after the configured delay.",
     "description": "Universally auto-deletes bot messages after the guild's configured delete_delay. Covers slash commands, interactions, and text command responses that Red's core delete_delay misses. Supports per-channel exclusions, safe task cancellation on unload, and fail-safe error handling.",
